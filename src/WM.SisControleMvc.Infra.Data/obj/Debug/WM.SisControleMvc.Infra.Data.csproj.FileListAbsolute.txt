@@ -1,0 +1,14 @@
+D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\WM.SisControleMvc.Infra.Data.dll.config
+D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\WM.SisControleMvc.Infra.Data.dll
+D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\WM.SisControleMvc.Infra.Data.pdb
+D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\EntityFramework.dll
+D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\WM.SisControleMvc.Domain.dll
+D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\WM.SisControleMvc.Domain.pdb
+D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\EntityFramework.xml
+D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\obj\Debug\WM.SisControleMvc.Infra.Data.csprojAssemblyReference.cache
+D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\obj\Debug\WM.SisControleMvc.Infra.Data.csproj.CoreCompileInputs.cache
+D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\obj\Debug\WM.SisControleMvc.Infra.Data.csproj.CopyComplete
+D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\obj\Debug\WM.SisControleMvc.Infra.Data.dll
+D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\obj\Debug\WM.SisControleMvc.Infra.Data.pdb
