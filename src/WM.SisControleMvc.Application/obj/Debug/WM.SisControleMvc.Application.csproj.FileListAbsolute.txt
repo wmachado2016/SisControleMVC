@@ -17,3 +17,22 @@ D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Application\obj\Debug\WM
 D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.csproj.CopyComplete
 D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.dll
 D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.pdb
+C:\SisControle\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Application.dll
+C:\SisControle\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Application.pdb
+C:\SisControle\src\WM.SisControleMvc.Application\bin\Debug\AutoMapper.dll
+C:\SisControle\src\WM.SisControleMvc.Application\bin\Debug\System.ValueTuple.dll
+C:\SisControle\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Domain.dll
+C:\SisControle\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Infra.Data.dll
+C:\SisControle\src\WM.SisControleMvc.Application\bin\Debug\EntityFramework.dll
+C:\SisControle\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Domain.pdb
+C:\SisControle\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Infra.Data.pdb
+C:\SisControle\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Infra.Data.dll.config
+C:\SisControle\src\WM.SisControleMvc.Application\bin\Debug\AutoMapper.pdb
+C:\SisControle\src\WM.SisControleMvc.Application\bin\Debug\AutoMapper.xml
+C:\SisControle\src\WM.SisControleMvc.Application\bin\Debug\System.ValueTuple.xml
+C:\SisControle\src\WM.SisControleMvc.Application\bin\Debug\EntityFramework.xml
+C:\SisControle\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.csprojAssemblyReference.cache
+C:\SisControle\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.csproj.CoreCompileInputs.cache
+C:\SisControle\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.csproj.CopyComplete
+C:\SisControle\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.dll
+C:\SisControle\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.pdb
