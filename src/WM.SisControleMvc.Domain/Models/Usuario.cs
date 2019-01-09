@@ -5,6 +5,7 @@ namespace WM.SisControleMvc.Domain.Models
 {
     public class Usuario : Entity
     {
+
         public string Nome { get; private set; }
         public string Email { get; private set; }
         public string CPF { get; private set; }
