@@ -26,6 +26,7 @@ namespace WM.SisControleMvc.Application.Services
             usuario.DefinirComoAtivo();
             usuario.AdicionarEndereco(endereco);
 
+            _usuarioRepository.Adicionar(usuario);
 
             return usuarioEnderecoViewModel;
         }
