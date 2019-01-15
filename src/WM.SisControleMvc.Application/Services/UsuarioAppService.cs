@@ -5,17 +5,18 @@ using WM.SisControleMvc.Application.Interfaces;
 using WM.SisControleMvc.Application.ViewsModels;
 using WM.SisControleMvc.Domain.Interfaces;
 using WM.SisControleMvc.Domain.Models;
-using WM.SisControleMvc.Infra.Data.Repository;
 
 namespace WM.SisControleMvc.Application.Services
 {
     public class UsuarioAppService : IUsuarioAppService
     {
         private readonly IUsuarioRepository _usuarioRepository;
+        private readonly IUsuarioService _usuarioService;
 
-        public UsuarioAppService()
+        public UsuarioAppService(IUsuarioRepository usuarioRepository, IUsuarioService usuarioService)
         {
-            _usuarioRepository = new UsuarioRepository();
+            _usuarioRepository = usuarioRepository;
+            _usuarioService = usuarioService;
         }
 
         public UsuarioEnderecoViewModel Adicionar(UsuarioEnderecoViewModel usuarioEnderecoViewModel)

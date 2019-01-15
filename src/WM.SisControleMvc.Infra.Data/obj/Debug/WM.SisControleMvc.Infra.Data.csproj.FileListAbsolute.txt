@@ -12,3 +12,17 @@ D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\obj\Debug\WM.
 D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\obj\Debug\WM.SisControleMvc.Infra.Data.csproj.CopyComplete
 D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\obj\Debug\WM.SisControleMvc.Infra.Data.dll
 D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Infra.Data\obj\Debug\WM.SisControleMvc.Infra.Data.pdb
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\WM.SisControleMvc.Infra.Data.dll.config
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\WM.SisControleMvc.Infra.Data.dll
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\WM.SisControleMvc.Infra.Data.pdb
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\WM.SisControleMvc.Domain.dll
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\WM.SisControleMvc.Domain.pdb
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\obj\Debug\WM.SisControleMvc.Infra.Data.csprojAssemblyReference.cache
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\obj\Debug\WM.SisControleMvc.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\obj\Debug\WM.SisControleMvc.Infra.Data.csproj.CopyComplete
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\obj\Debug\WM.SisControleMvc.Infra.Data.dll
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\obj\Debug\WM.SisControleMvc.Infra.Data.pdb

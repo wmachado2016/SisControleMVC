@@ -1,5 +1,6 @@
 ﻿using System.Web;
 using System.Web.Mvc;
+using WM.SisControleMvc.Infra.Filters;
 
 namespace WM.SisControleMvc.UI.Web
 {
@@ -8,6 +9,7 @@ namespace WM.SisControleMvc.UI.Web
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new GlobalActionLogger());
         }
     }
-}
+}   

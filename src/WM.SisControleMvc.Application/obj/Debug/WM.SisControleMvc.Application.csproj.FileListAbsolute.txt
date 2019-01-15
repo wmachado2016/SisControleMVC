@@ -17,3 +17,22 @@ D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Application\obj\Debug\WM
 D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.csproj.CopyComplete
 D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.dll
 D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.pdb
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Application.dll
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Application.pdb
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\bin\Debug\AutoMapper.dll
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\bin\Debug\System.ValueTuple.dll
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Domain.dll
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Infra.Data.dll
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\bin\Debug\EntityFramework.dll
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Domain.pdb
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Infra.Data.pdb
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Infra.Data.dll.config
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\bin\Debug\AutoMapper.pdb
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\bin\Debug\AutoMapper.xml
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\bin\Debug\System.ValueTuple.xml
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\bin\Debug\EntityFramework.xml
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.csprojAssemblyReference.cache
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.csproj.CoreCompileInputs.cache
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.csproj.CopyComplete
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.dll
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.pdb

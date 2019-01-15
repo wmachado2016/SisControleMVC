@@ -4,3 +4,9 @@ D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Domain\obj\Debug\WM.SisC
 D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Domain\obj\Debug\WM.SisControleMvc.Domain.csproj.CoreCompileInputs.cache
 D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Domain\obj\Debug\WM.SisControleMvc.Domain.dll
 D:\Curso MVC 5\SistemaControleMVC\src\WM.SisControleMvc.Domain\obj\Debug\WM.SisControleMvc.Domain.pdb
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Domain\bin\Debug\WM.SisControleMvc.Domain.dll
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Domain\bin\Debug\WM.SisControleMvc.Domain.pdb
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Domain\obj\Debug\WM.SisControleMvc.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Domain\obj\Debug\WM.SisControleMvc.Domain.dll
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Domain\obj\Debug\WM.SisControleMvc.Domain.pdb
+C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Domain\obj\Debug\WM.SisControleMvc.Domain.csprojAssemblyReference.cache

@@ -1,13 +1,12 @@
 ﻿@model WM.SisControleMvc.Application.ViewsModels.UsuarioViewModel
 
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = "Detalhes";
 }
 
-<h2>Details</h2>
+<h2>Detalhes do Usuário</h2>
 
 <div>
-    <h4>UsuarioViewModel</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
@@ -51,8 +50,10 @@
         </dd>
 
     </dl>
+    <a href="@Url.Action("Edit", "Usuarios")" class="btn btn-success">
+        <span title="Voltar"></span> Editar
+    </a>
+    <a href="@Url.Action("Index", "Usuarios")" class="btn btn-primary">
+        <span title="Voltar"></span> Voltar
+    </a>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>

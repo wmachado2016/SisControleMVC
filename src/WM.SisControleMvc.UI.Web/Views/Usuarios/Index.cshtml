@@ -1,14 +1,22 @@
-﻿@model IEnumerable<WM.SisControleMvc.Application.ViewsModels.UsuarioViewModel>
+﻿@using WM.SisControleMvc.UI.Web.Helpers
+@model IEnumerable<WM.SisControleMvc.Application.ViewsModels.UsuarioViewModel>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Listas de Usuários";
 }
 
-<h2>Index</h2>
+<h2>Usuários</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+@{ 
+    if(this.IfClaim("Usuarios","EX"))
+    {
+       <p>
+            @Html.ActionLink("Criar Novo", "Create")
+       </p>
+    }
+}
+
+
 <table class="table">
     <tr>
         <th>
@@ -29,29 +37,40 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Nome)
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CPF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CNPJ)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataNascimento)
+            </td>
+            <td>
+            <a href="@Url.Action("Edit", "Usuarios", new { id = item.Id })" class="btn btn-warning">
+                <span title="Editar" class="glyphicon glyphicon-pencil"></span>
+            </a>
+            <a href="@Url.Action("Details", "Usuarios", new { id = item.Id })" class="btn btn-primary">
+                <span title="Detalhes" class="glyphicon glyphicon-search"></span>
+            </a>
+
+            @if (this.IfClaim("Usuarios", "EX"))
+            {
+                <a href="@Url.Action("Delete", "Usuarios", new { id = item.Id })" class="btn btn-danger">
+                    <span title="Excluir" class="glyphicon glyphicon-trash"></span>
+                </a>
+            }
         </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Email)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CPF)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CNPJ)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DataNascimento)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
+        </tr>
+    }
 
 </table>

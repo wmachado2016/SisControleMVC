@@ -1,33 +1,32 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
-using System.Linq;
-using System.Net;
-using System.Web;
 using System.Web.Mvc;
 using WM.SisControleMvc.Application.Interfaces;
 using WM.SisControleMvc.Application.Services;
 using WM.SisControleMvc.Application.ViewsModels;
-using WM.SisControleMvc.UI.Web.Models;
+using WM.SisControleMvc.Infra.Filters;
 
 namespace WM.SisControleMvc.UI.Web.Controllers
 {
+    [Authorize]
+    [RoutePrefix("area-administrativa/gestão-usuários")]
     public class UsuariosController : Controller
     {
         private readonly IUsuarioAppService _usuarioAppService;
 
-        public UsuariosController()
+        public UsuariosController(IUsuarioAppService usuarioAppService)
         {
-            _usuarioAppService = new UsuarioAppService();
+            _usuarioAppService = usuarioAppService;
         }
                 
+        [ClaimsAuthorize("Usuarios","LI")]
+        [Route("listar-todos")]
         public ActionResult Index()
         {
             return View(_usuarioAppService.ObterAtivos());
         }
 
-
+        [ClaimsAuthorize("Usuarios", "DE")]
+        [Route("detalhes/{id:guid}")]
         public ActionResult Details(Guid id)
         {
             var usuarioViewModel = _usuarioAppService.ObterPorId(id);
@@ -40,14 +39,17 @@ namespace WM.SisControleMvc.UI.Web.Controllers
             return View(usuarioViewModel);
         }
 
-        // GET: Usuarios/Create
+        [ClaimsAuthorize("Usuarios", "IN")]
+        [Route("criar-novo")]
         public ActionResult Create()
         {
             return View();
         }
-               
+
+        [ClaimsAuthorize("Usuarios", "IN")]
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("criar-novo")]
         public ActionResult Create(UsuarioEnderecoViewModel usuarioEndViewModel)
         {
             if (!ModelState.IsValid) return View(usuarioEndViewModel);
@@ -56,6 +58,8 @@ namespace WM.SisControleMvc.UI.Web.Controllers
             return RedirectToAction("Index");            
         }
 
+        [ClaimsAuthorize("Usuarios", "ED")]
+        [Route("editar/{id:guid}")]
         public ActionResult Edit(Guid id)
         {
             var usuarioViewModel = _usuarioAppService.ObterPorId(id);
@@ -68,9 +72,10 @@ namespace WM.SisControleMvc.UI.Web.Controllers
             return View(usuarioViewModel);
         }
 
-        
+        [ClaimsAuthorize("Usuarios", "ED")]
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("editar/{id:guid}")]
         public ActionResult Edit(UsuarioViewModel usuarioViewModel)
         {
             if (!ModelState.IsValid) return View(usuarioViewModel);
@@ -79,7 +84,8 @@ namespace WM.SisControleMvc.UI.Web.Controllers
             return RedirectToAction("Index");
         }
 
-        // GET: Usuarios/Delete/5
+        [ClaimsAuthorize("Usuarios", "EX")]
+        [Route("excluir/{id:guid}")]
         public ActionResult Delete(Guid id)
         {
             var usuarioViewModel = _usuarioAppService.ObterPorId(id);
@@ -90,8 +96,10 @@ namespace WM.SisControleMvc.UI.Web.Controllers
             return View(usuarioViewModel);
         }
 
+        [ClaimsAuthorize("Usuarios", "EX")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Route("excluir/{id:guid}")]
         public ActionResult DeleteConfirmed(Guid id)
         {
             _usuarioAppService.Remover(id);
