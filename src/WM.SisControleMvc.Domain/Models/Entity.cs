@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DomainValidation.Validation;
+using System;
 
 namespace WM.SisControleMvc.Domain.Models
 {
@@ -7,16 +8,16 @@ namespace WM.SisControleMvc.Domain.Models
         protected Entity()
         {
             Id = Guid.NewGuid();
-            //ValidationResult = new ValidationResult();
+            ValidationResult = new ValidationResult();
         }
 
         public Guid Id { get; set; }
 
-        //public ValidationResult ValidationResult { get; set; }
+        public ValidationResult ValidationResult { get; set; }
 
         public void AdicionarErrroValidacao(string msgErro)
         {
-            //ValidationResult.Add(new ValidationError(msgErro));
+            ValidationResult.Add(new ValidationError(msgErro));
         }
 
         public abstract bool EhValido();
