@@ -21,3 +21,29 @@ C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.CrossCutting.IoC\
 C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.CrossCutting.IoC\obj\Debug\WM.SisControleMvc.Infra.CrossCutting.IoC.csproj.CopyComplete
 C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.CrossCutting.IoC\obj\Debug\WM.SisControleMvc.Infra.CrossCutting.IoC.dll
 C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.CrossCutting.IoC\obj\Debug\WM.SisControleMvc.Infra.CrossCutting.IoC.pdb
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\obj\Debug\WM.SisControleMvc.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\obj\Debug\WM.SisControleMvc.Infra.CrossCutting.IoC.csprojAssemblyReference.cache
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\WM.SisControleMvc.Infra.CrossCutting.IoC.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\WM.SisControleMvc.Infra.CrossCutting.IoC.pdb
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\WM.SisControleMvc.Application.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\WM.SisControleMvc.Domain.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\WM.SisControleMvc.Infra.Data.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\DomainValidation.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\AutoMapper.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\EntityFramework.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\System.ValueTuple.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\WM.SisControleMvc.Application.pdb
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\WM.SisControleMvc.Domain.pdb
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\WM.SisControleMvc.Infra.Data.pdb
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\WM.SisControleMvc.Infra.Data.dll.config
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\SimpleInjector.xml
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\AutoMapper.pdb
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\AutoMapper.xml
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\EntityFramework.xml
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\System.ValueTuple.xml
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\obj\Debug\WM.SisControleMvc.Infra.CrossCutting.IoC.csproj.CopyComplete
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\obj\Debug\WM.SisControleMvc.Infra.CrossCutting.IoC.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\obj\Debug\WM.SisControleMvc.Infra.CrossCutting.IoC.pdb
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\Dapper.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.CrossCutting.IoC\bin\Debug\Dapper.xml

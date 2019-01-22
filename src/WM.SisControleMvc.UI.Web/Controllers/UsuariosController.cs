@@ -9,7 +9,7 @@ namespace WM.SisControleMvc.UI.Web.Controllers
 {
     [Authorize]
     [RoutePrefix("area-administrativa/gestão-usuários")]
-    public class UsuariosController : Controller
+    public class UsuariosController : BaseController
     {
         private readonly IUsuarioAppService _usuarioAppService;
 
@@ -50,12 +50,17 @@ namespace WM.SisControleMvc.UI.Web.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Route("criar-novo")]
-        public ActionResult Create(UsuarioEnderecoViewModel usuarioEndViewModel)
+        public ActionResult Create(UsuarioEnderecoViewModel usuarioEndercoViewModel)
         {
-            if (!ModelState.IsValid) return View(usuarioEndViewModel);
-            
-            _usuarioAppService.Adicionar(usuarioEndViewModel);
-            return RedirectToAction("Index");            
+            if (!ModelState.IsValid) return View(usuarioEndercoViewModel);
+
+            var usuarioEnd = _usuarioAppService.Adicionar(usuarioEndercoViewModel);
+
+            if (usuarioEnd.Usuario.ValidationResult.IsValid) return RedirectToAction("Index");
+
+            PopularModelStateComErros(usuarioEnd.Usuario.ValidationResult);
+
+            return View(usuarioEndercoViewModel);
         }
 
         [ClaimsAuthorize("Usuarios", "ED")]

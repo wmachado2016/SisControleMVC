@@ -63,6 +63,7 @@
                 <span title="Detalhes" class="glyphicon glyphicon-search"></span>
             </a>
 
+
             @if (this.IfClaim("Usuarios", "EX"))
             {
                 <a href="@Url.Action("Delete", "Usuarios", new { id = item.Id })" class="btn btn-danger">

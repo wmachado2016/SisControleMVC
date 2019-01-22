@@ -1,4 +1,5 @@
 ﻿using System;
+using WM.SisControleMvc.Domain.DomainValidation.Validations.Usuarios;
 using WM.SisControleMvc.Domain.Interfaces;
 using WM.SisControleMvc.Domain.Models;
 
@@ -17,7 +18,9 @@ namespace WM.SisControleMvc.Domain.Services
         {
             if (!usuario.EhValido()) return usuario;
 
-             return _usuarioRepository.Adicionar(usuario);
+            usuario.ValidationResult = new UsuarioAptoParaCadastroValidation(_usuarioRepository).Validate(usuario);
+
+            return !usuario.ValidationResult.IsValid ? usuario : _usuarioRepository.Adicionar(usuario);
         }
 
         public Usuario Atualizar(Usuario usuario)

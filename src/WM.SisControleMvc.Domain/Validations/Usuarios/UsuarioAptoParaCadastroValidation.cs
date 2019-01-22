@@ -1,19 +1,16 @@
 ﻿using DomainValidation.Validation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using WM.SisControleMvc.Domain.Interfaces;
 using WM.SisControleMvc.Domain.Models;
+using WM.SisControleMvc.Domain.Specifications.Usuarios;
 
 namespace WM.SisControleMvc.Domain.DomainValidation.Validations.Usuarios
 {
     public class UsuarioAptoParaCadastroValidation : Validator<Usuario>
     {
-        public UsuarioAptoParaCadastroValidation()
+        public UsuarioAptoParaCadastroValidation(IUsuarioRepository usuarioRepository)
         {
-            var cpfDuplicado = new UsuarioDevePossuirCPFUnicoSpecification(UsuarioRepository);
-            var emailDuplicado = new UsuarioDevePossuirEmailUnicoSpecification(UsuarioRepository);
+            var cpfDuplicado = new UsuarioDeveTerCpfUnicoSpecification(usuarioRepository);
+            var emailDuplicado = new UsuarioDeveTerEmailUnicoSpecification(usuarioRepository);
             var UsuarioEndereco = new UsuarioDeveTerUmEnderecoSpecification();
 
             base.Add("cpfDuplicado", new Rule<Usuario>(cpfDuplicado, "CPF já cadastrado! Esqueceu sua senha?"));

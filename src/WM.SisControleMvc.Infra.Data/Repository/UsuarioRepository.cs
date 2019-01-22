@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Dapper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using WM.SisControleMvc.Domain.Interfaces;
@@ -13,23 +14,41 @@ namespace WM.SisControleMvc.Infra.Data.Repository
     {
         public IEnumerable<Usuario> ObterAtivos()
         {
-            return Buscar(u => u.Ativo && !u.Excluido);
+            var sql = @"SELECT * FROM usuarios c " +
+                      "WHERE c.Excluido = 0 AND c.Ativo = 1";
+
+            return Db.Database.Connection.Query<Usuario>(sql);
+        }
+
+        public override Usuario ObterPorId(Guid id)
+        {
+            var sql = @"SELECT * FROM usuarios c " +
+                      "LEFT JOIN Enderecos e " +
+                      "ON c.Id = e.usuarioId " +
+                      "WHERE c.Id = @uid AND c.Excluido = 0 AND c.Ativo = 1";
+
+            return Db.Database.Connection.Query<Usuario, Endereco, Usuario>(sql,
+                (c, e) =>
+                {
+                    c.AdicionarEndereco(e);
+                    return c;
+
+                }, new { uid = id }).FirstOrDefault();
         }
 
         public Usuario ObterPorCpf(string cpf)
         {
-            return Buscar(u => u.Ativo && !u.Excluido && u.CPF == cpf).FirstOrDefault();
+            return Buscar(c => c.CPF == cpf).FirstOrDefault();
         }
 
         public Usuario ObterPorEmail(string email)
         {
-            return Buscar(u => u.Ativo && !u.Excluido && u.Email == email).FirstOrDefault();
+            return Buscar(c => c.Email == email).FirstOrDefault();
         }
 
-        public override void Remover(Guid Id)
+        public override void Remover(Guid id)
         {
-            //o metodo busca os dados do usuario define como excluido logicamente e depois salva os dados na base novamente
-            var usuario = ObterPorId(Id);
+            var usuario = ObterPorId(id);
             usuario.DefinirComoExcluido();
 
             Atualizar(usuario);

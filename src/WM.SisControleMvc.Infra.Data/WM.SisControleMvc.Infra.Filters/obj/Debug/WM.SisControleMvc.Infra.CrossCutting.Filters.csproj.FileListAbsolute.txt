@@ -18,3 +18,22 @@ C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\WM.SisContro
 C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\obj\Debug\WM.SisControleMvc.Infra.CrossCutting.Filters.csproj.CopyComplete
 C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\obj\Debug\WM.SisControleMvc.Infra.Filters.dll
 C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\obj\Debug\WM.SisControleMvc.Infra.Filters.pdb
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\bin\Debug\WM.SisControleMvc.Infra.Filters.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\bin\Debug\WM.SisControleMvc.Infra.Filters.pdb
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\bin\Debug\System.Web.Helpers.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\bin\Debug\System.Web.Mvc.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\bin\Debug\System.Web.Razor.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\bin\Debug\System.Web.WebPages.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\bin\Debug\System.Web.WebPages.Razor.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\bin\Debug\System.Web.Helpers.xml
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\bin\Debug\System.Web.Mvc.xml
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\bin\Debug\System.Web.Razor.xml
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\bin\Debug\System.Web.WebPages.xml
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\bin\Debug\System.Web.WebPages.Razor.xml
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\obj\Debug\WM.SisControleMvc.Infra.CrossCutting.Filters.csproj.CoreCompileInputs.cache
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\obj\Debug\WM.SisControleMvc.Infra.CrossCutting.Filters.csproj.CopyComplete
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\obj\Debug\WM.SisControleMvc.Infra.Filters.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Infra.Data\WM.SisControleMvc.Infra.Filters\obj\Debug\WM.SisControleMvc.Infra.Filters.pdb

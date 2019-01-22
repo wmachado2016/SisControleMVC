@@ -10,7 +10,7 @@ namespace WM.SisControleMvc.Application.ViewsModels
         public UsuarioViewModel()
         {
             Id = Guid.NewGuid();
-            //ValidationResult = new DomainValidation.Validation.ValidationResult();
+            ValidationResult = new DomainValidation.Validation.ValidationResult();
         }
 
         [Key]
@@ -56,7 +56,7 @@ namespace WM.SisControleMvc.Application.ViewsModels
 
         public IEnumerable<EnderecoViewModel> Enderecos { get; set; }
 
-        //[ScaffoldColumn(false)]
-        //public DomainValidation.Validation.ValidationResult ValidationResult { get; set; }
+        [ScaffoldColumn(false)]
+        public DomainValidation.Validation.ValidationResult ValidationResult { get; set; }
     }
 }

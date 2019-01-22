@@ -20,7 +20,6 @@ namespace WM.SisControleMvc.Domain.Models
 
         public virtual ICollection<Endereco> Enderecos { get; private set; }
         public virtual ICollection<Telefone> Telefones { get; private set; }
-       //public ValidationResult ValidationResult { get; set; }
 
         public Usuario(string nome, string email, string cpf, string cnpj, int tipoUsuario, DateTime dataNascimento, bool ativo)
         {

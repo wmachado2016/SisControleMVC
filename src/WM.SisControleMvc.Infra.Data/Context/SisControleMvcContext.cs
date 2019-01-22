@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DomainValidation.Validation;
+using System;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
@@ -29,10 +30,10 @@ namespace WM.SisControleMvc.Infra.Data.Context
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
             modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
 
-            //modelBuilder.Ignore<ValidationResult>();
-
             modelBuilder.Properties<string>()
                 .Configure(p => p.HasColumnType("varchar"));
+
+            modelBuilder.Ignore<ValidationResult>();
 
             modelBuilder.Properties<string>()
                 .Configure(p => p.HasMaxLength(100));

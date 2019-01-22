@@ -36,3 +36,25 @@ C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\obj\Debug\W
 C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.csproj.CopyComplete
 C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.dll
 C:\Users\Admim\OneDrive\SistemaMVC\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.pdb
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.csproj.CoreCompileInputs.cache
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.csprojAssemblyReference.cache
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Application.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Application.pdb
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\AutoMapper.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\DomainValidation.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\System.ValueTuple.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Domain.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Infra.Data.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\EntityFramework.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Domain.pdb
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Infra.Data.pdb
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\WM.SisControleMvc.Infra.Data.dll.config
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\AutoMapper.pdb
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\AutoMapper.xml
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\System.ValueTuple.xml
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\EntityFramework.xml
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.csproj.CopyComplete
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\obj\Debug\WM.SisControleMvc.Application.pdb
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\Dapper.dll
+D:\SisControle 20-01-19\src\WM.SisControleMvc.Application\bin\Debug\Dapper.xml

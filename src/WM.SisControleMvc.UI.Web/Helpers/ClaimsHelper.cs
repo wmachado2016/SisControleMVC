@@ -25,6 +25,26 @@ namespace WM.SisControleMvc.UI.Web.Helpers
             return !ValidationPermission(claimName, claimValue) ? "disable" : "";
         }
 
+        public static string Tipousuario(this WebViewPage page, int tipoUsuario)
+        {
+            string ret = "";
+            switch (tipoUsuario)
+            {
+                case 1:
+                    ret= "Cliente";
+                    break;
+                case 2:
+                    ret = "Fornecedor";
+                    break;
+                case 3:
+                    ret = "Vendedor";
+                    break;
+                default:
+                    break;
+            }
+            return ret;
+        }
+
         private static bool ValidationPermission(string claimName, string claimValue)
         {
             var identity = (ClaimsIdentity)HttpContext.Current.User.Identity;
