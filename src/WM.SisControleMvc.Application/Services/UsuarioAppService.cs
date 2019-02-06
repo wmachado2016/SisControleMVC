@@ -1,19 +1,21 @@
 ﻿using AutoMapper;
+using DomainValidation.Validation;
 using System;
 using System.Collections.Generic;
 using WM.SisControleMvc.Application.Interfaces;
 using WM.SisControleMvc.Application.ViewsModels;
 using WM.SisControleMvc.Domain.Interfaces;
 using WM.SisControleMvc.Domain.Models;
+using WM.SisControleMvc.Infra.Data.UoW;
 
 namespace WM.SisControleMvc.Application.Services
 {
-    public class UsuarioAppService : IUsuarioAppService
+    public class UsuarioAppService : BaseService, IUsuarioAppService
     {
         private readonly IUsuarioRepository _usuarioRepository;
         private readonly IUsuarioService _usuarioService;
 
-        public UsuarioAppService(IUsuarioRepository usuarioRepository, IUsuarioService usuarioService)
+        public UsuarioAppService(IUsuarioRepository usuarioRepository, IUsuarioService usuarioService, IUnitofWork uow) : base(uow)
         {
             _usuarioRepository = usuarioRepository;
             _usuarioService = usuarioService;
@@ -28,6 +30,16 @@ namespace WM.SisControleMvc.Application.Services
             usuario.AdicionarEndereco(endereco);
 
             var usuarioRet = _usuarioService.Adicionar(usuario);
+
+            AdicionarResultadoProcessamento(usuarioRet.ValidationResult);
+
+            if (ValidacaoProcesso.IsValid) {
+
+                if (!Commit()) {
+                    //fazer alguma coisa, log, exception, add erro para retornar ao usuario
+                    usuarioEnderecoViewModel.Usuario.ValidationResult.Add(new ValidationError("Ocorreu um erro no momento de salvar no banco de dados!"));
+                }
+            }
 
             usuarioEnderecoViewModel.Usuario = Mapper.Map<UsuarioViewModel>(usuarioRet);
 

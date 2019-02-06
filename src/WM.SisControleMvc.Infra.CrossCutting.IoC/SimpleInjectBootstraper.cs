@@ -5,7 +5,9 @@ using WM.SisControleMvc.Application.Interfaces;
 using WM.SisControleMvc.Application.Services;
 using WM.SisControleMvc.Domain.Interfaces;
 using WM.SisControleMvc.Domain.Services;
+using WM.SisControleMvc.Infra.Data.Context;
 using WM.SisControleMvc.Infra.Data.Repository;
+using WM.SisControleMvc.Infra.Data.UoW;
 
 namespace WM.SisControleMvc.Infra.CrossCutting.IoC
 {
@@ -21,6 +23,9 @@ namespace WM.SisControleMvc.Infra.CrossCutting.IoC
 
             //Data
             container.Register<IUsuarioRepository, UsuarioRepository>(Lifestyle.Scoped);
+
+            container.Register<IUnitofWork, UnitofWork>(Lifestyle.Scoped);
+            container.Register<SisControleMvcContext>(Lifestyle.Scoped);
         }
     }
 }
