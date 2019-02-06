@@ -14,7 +14,7 @@
 <div class="form-horizontal">
     <h4>Dados do Usuário</h4>
     <hr />
-    
+    @Html.Partial("_SumaryErros")
 
     <div class="form-group">
         @Html.LabelFor(model => model.Usuario.Nome, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -121,7 +121,7 @@
             <input type="submit" value="Criando" class="btn btn-success" />
             <a class="btn btn-primary" href="@Url.Action("Index")">Cancelar</a>
         </div>
-        
+
     </div>
 </div>
 }

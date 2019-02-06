@@ -18,17 +18,15 @@ namespace WM.SisControleMvc.Infra.Data.Repository
         protected SisControleMvcContext Db;
         protected DbSet<TEntity> DbSet;
 
-        public Repository()
+        public Repository(SisControleMvcContext context)
         {
-            Db = new SisControleMvcContext();
+            Db = context;
             DbSet = Db.Set<TEntity>();
         }
 
         public virtual TEntity Adicionar(TEntity obj)
         {
-            var objRet = DbSet.Add(obj);
-            SaveChanges();
-            return objRet;
+            return DbSet.Add(obj);
         }
 
         public virtual TEntity Atualizar(TEntity obj)
@@ -36,7 +34,6 @@ namespace WM.SisControleMvc.Infra.Data.Repository
             var entry = Db.Entry(obj);
             DbSet.Attach(obj);
             entry.State = EntityState.Modified;
-            SaveChanges();
             return obj;
         }
 
@@ -44,7 +41,6 @@ namespace WM.SisControleMvc.Infra.Data.Repository
         {
             var entity = new TEntity { Id = id };
             DbSet.Remove(entity);
-            SaveChanges();
         }
 
         public virtual TEntity ObterPorId(Guid Id)

@@ -27,7 +27,7 @@ namespace WM.SisControleMvc.Application.Services
             usuario.DefinirComoAtivo();
             usuario.AdicionarEndereco(endereco);
 
-            var usuarioRet = _usuarioRepository.Adicionar(usuario);
+            var usuarioRet = _usuarioService.Adicionar(usuario);
 
             usuarioEnderecoViewModel.Usuario = Mapper.Map<UsuarioViewModel>(usuarioRet);
 
@@ -38,14 +38,14 @@ namespace WM.SisControleMvc.Application.Services
         public UsuarioViewModel Atualizar(UsuarioViewModel usuarioViewModel)
         {
             var usuario = Mapper.Map<Usuario>(usuarioViewModel);
-            _usuarioRepository.Atualizar(usuario);
+            _usuarioService.Atualizar(usuario);
 
             return usuarioViewModel;
         }
 
         public void Remover(Guid id)
         {
-            _usuarioRepository.Remover(id);
+            _usuarioService.Remover(id);
         }
 
         public UsuarioViewModel ObterPorId(Guid id)

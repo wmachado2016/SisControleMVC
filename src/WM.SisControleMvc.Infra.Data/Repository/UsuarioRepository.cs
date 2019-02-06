@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using WM.SisControleMvc.Domain.Interfaces;
 using WM.SisControleMvc.Domain.Models;
+using WM.SisControleMvc.Infra.Data.Context;
 
 namespace WM.SisControleMvc.Infra.Data.Repository
 {
@@ -12,6 +13,8 @@ namespace WM.SisControleMvc.Infra.Data.Repository
     /// </summary>
     public class UsuarioRepository : Repository<Usuario>, IUsuarioRepository
     {
+        public UsuarioRepository(SisControleMvcContext context) : base(context) { }
+
         public IEnumerable<Usuario> ObterAtivos()
         {
             var sql = @"SELECT * FROM usuarios c " +

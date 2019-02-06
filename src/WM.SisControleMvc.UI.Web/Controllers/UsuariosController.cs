@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Web.Mvc;
 using WM.SisControleMvc.Application.Interfaces;
-using WM.SisControleMvc.Application.Services;
 using WM.SisControleMvc.Application.ViewsModels;
 using WM.SisControleMvc.Infra.Filters;
+
+using DomainValidation.Validation;
 
 namespace WM.SisControleMvc.UI.Web.Controllers
 {

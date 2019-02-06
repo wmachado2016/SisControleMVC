@@ -20,7 +20,7 @@ namespace WM.SisControleMvc.Domain.Services
 
             usuario.ValidationResult = new UsuarioAptoParaCadastroValidation(_usuarioRepository).Validate(usuario);
 
-            return !usuario.ValidationResult.IsValid ? usuario : _usuarioRepository.Adicionar(usuario);
+            return usuario.ValidationResult.IsValid ?_usuarioRepository.Adicionar(usuario) : usuario;
         }
 
         public Usuario Atualizar(Usuario usuario)
